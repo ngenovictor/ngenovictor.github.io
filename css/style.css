@@ -1,0 +1,88 @@
+*{
+  max-width: 100%;
+}
+html,body{
+  padding:0;
+  margin:0;
+}
+body { padding-top: 70px; }
+.profile{
+  text-align: center;
+}
+.profile img{
+  border-radius: 30px;
+  height:250px;
+}
+section.page-sections{
+  margin:0;
+  padding:0;
+}
+.profile{
+  padding:0;
+  margin: 0;
+  padding-top: 100px;
+
+}
+.social{
+  padding-top: 120px;
+  text-align: center;
+}
+.social i {
+  padding:20px;
+}
+.fa-google-plus{
+  color:red;
+}
+.fa-github{
+  color:black;
+}
+.fa:hover{
+  opacity:0.6;
+}
+.skills-section{
+  padding-top: 200px;
+  width:100%;
+  height:auto;
+  background-color: rgba(142, 64, 200,0.3);
+}
+.skills{
+  padding-top: 30px;
+  height:800px;
+}
+.skills .row{
+  height:50%;
+  margin-top: 50px;
+}
+.skills .col-xs-4{
+  height:100%;
+}
+.html{
+  height:100%;
+  background-image: url("../img/langs/html5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.css{
+  height:100%;
+  background-image: url("../img/langs/css.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.js{
+  height:100%;
+  background-image: url("../img/langs/javascript.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.python{
+  height:100%;
+  background-image: url("../img/langs/python.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.django{
+  height:100%;
+  background-image: url("../img/langs/django.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
