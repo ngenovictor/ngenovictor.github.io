@@ -1,3 +1,4 @@
+/* general setting */
 *{
   max-width: 100%;
 }
@@ -5,23 +6,30 @@ html,body{
   padding:0;
   margin:0;
 }
-body { padding-top: 70px; }
-.profile{
-  text-align: center;
-}
-.profile img{
-  border-radius: 30px;
-  height:250px;
+body {
+  padding-top: 70px;
 }
 section.page-sections{
   margin:0;
   padding:0;
 }
+
+/*
+details section
+*/
+section.page-sections.details{
+  height:100%;
+  padding-bottom: 100px;
+}
 .profile{
+  text-align: center;
   padding:0;
   margin: 0;
   padding-top: 100px;
-
+}
+.profile img{
+  border-radius: 30px;
+  height:250px;
 }
 .social{
   padding-top: 120px;
@@ -38,39 +46,48 @@ section.page-sections{
 }
 .fa:hover{
   opacity:0.6;
+  font-size: 450%;
 }
+/*
+The skills section
+*/
 .skills-section{
-  padding-top: 200px;
-  width:100%;
   height:auto;
   background-color: rgba(142, 64, 200,0.3);
 }
+.skills-section .skills-section-wrapper{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .skills{
   padding-top: 30px;
-  height:800px;
+  padding-bottom: 30px
+  height:600px;/*fixed height here check for problems later*/
 }
 .skills .row{
   height:50%;
-  margin-top: 50px;
 }
 .skills .col-xs-4{
   height:100%;
 }
-.html{
+.skills img{
+  height:10%;  
+}
+/*.html{
   height:100%;
-  background-image: url("../img/langs/html5.png");
+  background-image: url("../img/langs/html.png");
   background-size: contain;
   background-repeat: no-repeat;
-}
-.css{
+}*/
+/*.css{
   height:100%;
   background-image: url("../img/langs/css.png");
   background-size: contain;
   background-repeat: no-repeat;
-}
-.js{
+}*/
+/*.js{
   height:100%;
-  background-image: url("../img/langs/javascript.png");
+  background-image: url("../img/langs/js.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -85,4 +102,4 @@ section.page-sections{
   background-image: url("../img/langs/django.png");
   background-size: contain;
   background-repeat: no-repeat;
-}
+}*/
