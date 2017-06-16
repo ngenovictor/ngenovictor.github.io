@@ -10,4 +10,4 @@ Slowly bridging the gap between knowing and thinking in the following languages:
 4. Python
 5. Django
 6. Java
-7. Adroid Programming
+7. Android Programming
